@@ -213,8 +213,10 @@ configure:3657: result: no
 configure:3660: checking if zts is enabled
 configure:3686: result: no
 configure:3757: checking for re2c
-configure:3787: result: no
-configure:3812: WARNING: You will need re2c 0.13.4 or later if you want to regenerate PHP parsers.
+configure:3773: found /usr/bin/re2c
+configure:3784: result: re2c
+configure:3793: checking for re2c version
+configure:3807: result: 0.13.5 (ok)
 configure:3826: checking for gawk
 configure:3843: found /usr/bin/gawk
 configure:3854: result: gawk
@@ -530,6 +532,7 @@ ac_cv_path_GREP=/bin/grep
 ac_cv_path_SED=/bin/sed
 ac_cv_prog_AWK=gawk
 ac_cv_prog_CPP='gcc -E'
+ac_cv_prog_RE2C=re2c
 ac_cv_prog_ac_ct_AR=ar
 ac_cv_prog_ac_ct_MANIFEST_TOOL=mt
 ac_cv_prog_ac_ct_OBJDUMP=objdump
@@ -567,6 +570,7 @@ lt_cv_to_host_file_cmd=func_convert_file_noop
 lt_cv_to_tool_file_cmd=func_convert_file_noop
 php_cv_cc_dashr=no
 php_cv_cc_rpath=yes
+php_cv_re2c_version='0.13.5 (ok)'
 
 ## ----------------- ##
 ## Output variables. ##
@@ -614,7 +618,7 @@ PACKAGE_URL=''
 PACKAGE_VERSION=''
 PATH_SEPARATOR=':'
 RANLIB='ranlib'
-RE2C='exit 0;'
+RE2C='re2c'
 SED='/bin/sed'
 SHELL='/bin/bash'
 SHLIB_DL_SUFFIX_NAME='so'

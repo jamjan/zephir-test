@@ -2,12 +2,26 @@ namespace Jamjan;
 
 class Arraydigger {
 
-    const EXTRACT_DELIMITER = ".";
-    const TOKEN_DELIMITER = "#";
-    const TOKEN_EXPRESSION = "~%s(.*?)%s~";
+    public function extract_data(array resource_data,string path, string delimiter = ".") -> string | null {
+        var path_exploded;
+        array copy;
+        var value;
+        var _value;
+        let path_exploded = explode(delimiter,path);
 
-    public function extract_data(array resource_data,string path) -> string {
-        return "Hello";
+        if ( ! empty(path_exploded)) {
+            let copy = resource_data;
+            for value in path_exploded {
+            let _value = value;
+                if(isset(copy[_value])) {
+                    let copy = copy[_value];
+                } else {
+                    return null;
+                }
+            }
+            return copy;
+        } else {
+            return null;
+        }
     }
-
 }
