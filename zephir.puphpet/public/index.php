@@ -7,14 +7,16 @@ $digger = new \Jamjan\Arraydigger();
 $digger->extract_data($data,"test.array.index");
 $time_elapsed_secs = microtime(true) - $start;
 
-echo number_format($time_elapsed_secs,12);
+echo "Z: " . number_format($time_elapsed_secs,12);
 
 echo '<br />';
 
 $start = microtime(true);
-extract_data($data,"test.array.index");
+require 'ArrayDigger.php';
+$ad = new ArrayDigger();
+$ad->extract_data($data,"test.array.index");
 $time_elapsed_secs = microtime(true) - $start;
-echo number_format($time_elapsed_secs,12);
+echo "P: " . number_format($time_elapsed_secs,12);
 
 
 function extract_data($resource_data,$path, $delimiter = ".") {

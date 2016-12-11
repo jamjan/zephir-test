@@ -2,42 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9534769-7565-4c0a-bbc7-6cf9c072e40b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/puphpet/files/startup-always/01-build_extension.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/puphpet/files/startup-always/02-move_extension.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/puphpet/files/startup-always/03-restart_php.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/.libs/jamjan.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/.libs/jamjan.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/.libs/jamjan.so" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/.libs/jamjan.so" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/jamjan/.libs/arraydigger.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/jamjan/.libs/arraydigger.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/array.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/array.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/backtrace.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/backtrace.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/concat.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/concat.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/debug.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/debug.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/exception.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/exception.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/exit.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/exit.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/fcall.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/fcall.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/file.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/file.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/filter.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/filter.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/hash.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/hash.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/iterator.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/iterator.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/main.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/main.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/math.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/math.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/memory.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/memory.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/object.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/object.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/operators.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/operators.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/require.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/require.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/string.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/string.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/time.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/time.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/variables.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/.libs/variables.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/extended/.libs/array.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/extended/.libs/array.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/extended/.libs/fcall.o" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/kernel/extended/.libs/fcall.o" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/modules/jamjan.so" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/modules/jamjan.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/zephir.puphpet/public/ArrayDigger.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/compile.log" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/compile.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/Makefile" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/autom4te.cache/requests" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/autom4te.cache/requests" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/config.log" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/config.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/jamjan/arraydigger.zep.c" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/jamjan/arraydigger.zep.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/jamjan/arraydigger.zep.h" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/ext/jamjan/arraydigger.zep.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/jamjan/jamjan/Arraydigger.zep" afterPath="$PROJECT_DIR$/zephir.puphpet/jamjan/jamjan/Arraydigger.zep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/zephir.puphpet/public/index.php" afterPath="$PROJECT_DIR$/zephir.puphpet/public/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,18 +23,38 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/zephir.puphpet/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="225">
+              <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.yaml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/puphpet/config.yaml">
+      <file leaf-file-name="jamjan.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zephir.puphpet/jamjan/ext/jamjan.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1185">
-              <caret line="79" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="436" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compile.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zephir.puphpet/jamjan/compile.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zephir.puphpet/jamjan/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-45">
+              <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -78,6 +65,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArrayDigger.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zephir.puphpet/public/ArrayDigger.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -107,6 +104,8 @@
         <option value="$PROJECT_DIR$/puphpet/files/startup-always/03-restart_php.sh" />
         <option value="$PROJECT_DIR$/puphpet/files/startup-always/02-move_extension.sh" />
         <option value="$PROJECT_DIR$/zephir.puphpet/jamjan/jamjan/Arraydigger.zep" />
+        <option value="$PROJECT_DIR$/zephir.puphpet/jamjan/compile.log" />
+        <option value="$PROJECT_DIR$/zephir.puphpet/public/ArrayDigger.php" />
         <option value="$PROJECT_DIR$/zephir.puphpet/public/index.php" />
       </list>
     </option>
@@ -162,7 +161,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="puphpet" />
+              <option name="myItemId" value="zephir.puphpet" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -176,11 +179,25 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="puphpet" />
+              <option name="myItemId" value="zephir.puphpet" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zephir" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zephir" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="files" />
+              <option name="myItemId" value="zephir.puphpet" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jamjan" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -271,18 +288,18 @@
       <updated>1481387224360</updated>
       <workItem from="1481387227464" duration="2093000" />
       <workItem from="1481389580983" duration="19884000" />
-      <workItem from="1481417407638" duration="297000" />
+      <workItem from="1481417407638" duration="713000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22274000" />
+    <option name="totallyTimeSpent" value="22690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="64" width="1535" height="836" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2586319" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2586319" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298292" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -401,27 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zephir.puphpet/jamjan/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zephir.puphpet/jamjan/compile-errors.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zephir.puphpet/jamjan/compile.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="26" column="34" lean-forward="false" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/puphpet/files/startup-always/03-restart_php.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -443,18 +439,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/puphpet/config.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="12" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="436" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_3.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="707" column="89" lean-forward="false" selection-start-line="707" selection-start-column="24" selection-end-line="707" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zephir.puphpet/jamjan/ext/jamjan/arraydigger.zep.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-855">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zephir.puphpet/jamjan/ext/jamjan.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zephir.puphpet/jamjan/compile-errors.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zephir.puphpet/jamjan/compile.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/puphpet/config.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="75" column="30" lean-forward="true" selection-start-line="75" selection-start-column="30" selection-end-line="75" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zephir.puphpet/jamjan/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -467,10 +503,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/zephir.puphpet/public/ArrayDigger.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/zephir.puphpet/public/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
           <folding />
         </state>
       </provider>
