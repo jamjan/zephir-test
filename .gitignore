@@ -2,4 +2,5 @@ puphpet/config-custom.yaml
 .vagrant/
 .idea/
 zephir.puphpet/jamjan/.temp/
-
+zephir.puphpet/jamjan/compile.log
+zephir.puphpet/jamjan/compile-errors.log
