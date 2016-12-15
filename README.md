@@ -37,11 +37,13 @@ There are post deployment scripts located at `./puphpet/files/startup-always/`
 ######Build extension ######
 * cd /var/www/zephir && ./install -c
 * cd /var/www/zephir.puphpet/jamjan && sudo zephir build
+
 ######Move extension ######
 * touch /home/vagrant/arraydigger.ini && echo "extension=jamjan.so" >> /home/vagrant/arraydigger.ini
 * sudo mv /home/vagrant/arraydigger.ini /etc/php/7.1/mods-available/arraydigger.ini
 * sudo chmod 644 /etc/php/7.1/mods-available/arraydigger.ini
 * sudo chown root:root /etc/php/7.1/mods-available/arraydigger.ini
 * sudo ln -s /etc/php/7.1/mods-available/arraydigger.ini /etc/php/7.1/fpm/conf.d/99-arraydigger.ini
+
 ######Restart PHP-FPM ######
 sudo restart php7.1-fpm
