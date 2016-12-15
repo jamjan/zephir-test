@@ -3,6 +3,8 @@
 * Zephir 0.9.5a-dev-bad1ef6b4d
 * PHP 7.1.0
 * Ubuntu 16.04*
+* host set as *http://zephir.php7-1.puphpet*
+* IP 192.168.56.71
 
 library *re2c* is required (included)
 

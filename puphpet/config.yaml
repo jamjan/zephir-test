@@ -20,10 +20,10 @@ vagrantfile:
                         update_guest_tools: 0
                 machines:
                     vflm_a9tlhrx1i4pj:
-                        id: zephir
-                        hostname: zephir.puphpet
+                        id: zephir_and_php7_1
+                        hostname: zephir.php-7-1.puphpet
                         network:
-                            private_network: 192.168.56.198
+                            private_network: 192.168.56.71
                             forwarded_port:
                                 vflmnfp_pbc5ign3qpa4:
                                     host: '6865'
@@ -185,9 +185,9 @@ apache:
         - rewrite
     vhosts:
         av_41es9yo73mi1:
-            servername: zephir.puphpet
+            servername: zephir.php-7-1.puphpet
             serveraliases:
-                - www.zephir.puphpet
+                - www.zephir.php-7-1.puphpet
             docroot: /var/www/zephir.puphpet/public
             port: '80'
             setenv:
