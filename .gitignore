@@ -1,3 +1,5 @@
 puphpet/config-custom.yaml
 .vagrant/
+.idea/
+zephir.puphpet/jamjan/.temp/
 
