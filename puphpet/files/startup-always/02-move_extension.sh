@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# create ini extension file in vgrants home directory
+# create ini extension file in vagrants home directory
 touch /home/vagrant/arraydigger.ini && echo "extension=jamjan.so" >> /home/vagrant/arraydigger.ini
 
 # move ini file to mods available

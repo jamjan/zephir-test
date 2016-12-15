@@ -1,5 +1,6 @@
 puphpet/config-custom.yaml
 .vagrant/
+html/
 .idea/
 zephir.puphpet/jamjan/.temp/
 zephir.puphpet/jamjan/ext/
