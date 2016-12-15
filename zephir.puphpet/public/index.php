@@ -1,24 +1,73 @@
 <?php
 
-$data = ["test"=>["array"=>["index"=>123]]];
+$data = ["test"=>["array"=>["index"=>123]],"another","another_another"];
 
-$iterations = 10;
+$index_to_extract = "test.array.index";
 
-$start = microtime(true);
-for ($a=0;$a<$iterations;$a++) {
-    $digger = new \Jamjan\Arraydigger();
-    $digger->extract_data($data, "test.array.index");
-    $time_elapsed_secs = microtime(true) - $start;
-}
-echo "Z: " . number_format($time_elapsed_secs,12);
+$iterations_external = 10;
 
-echo '<br />';
+$iterations_internal = 100;
 
-$start = microtime(true);
+$time_aggregated_together_zephir = 0;
+$time_aggregated_together_php = 0;
+
+$time_aggregated_separately_zephir = 0;
+$time_aggregated_separately_php = 0;
+
 require 'ArrayDigger.php';
-for ($a=0;$a<$iterations;$a++) {
-    $ad = new ArrayDigger();
-    $ad->extract_data($data,"test.array.index");
-    $time_elapsed_secs = microtime(true) - $start;
+
+/**
+ * iterate TOGETHER:
+ */
+for($x=0;$x<=$iterations_external;$x++) {
+// Zephir:
+    $start_zephir = microtime(true);
+    iterate_zephir($data,$index_to_extract,$iterations_internal);
+    $time_aggregated_together_zephir += microtime(true) - $start_zephir;
+// PHP:
+    $start_php = microtime(true);
+    iterate_php($data,$index_to_extract,$iterations_internal);
+    $time_aggregated_together_php += microtime(true) - $start_php;
 }
-echo "P: " . number_format($time_elapsed_secs,12);
+
+/**
+ * iterate SEPARATELY:
+ */
+// Zephir:
+$start = microtime(true);
+for($x=0;$x<=$iterations_external;$x++) {
+    iterate_zephir($data,$index_to_extract,$iterations_internal);
+}
+$time_aggregated_separately_zephir += microtime(true) - $start;
+// PHP:
+$start = microtime(true);
+for($x=0;$x<=$iterations_external;$x++) {
+    iterate_php($data,$index_to_extract,$iterations_internal);
+}
+$time_aggregated_separately_php += microtime(true) - $start;
+
+
+echo "Together: <br />";
+echo sprintf("Z: %s",number_format($time_aggregated_together_zephir,12));
+echo '<br />';
+echo sprintf("P: %s",number_format($time_aggregated_together_php,12));
+echo "<br />";
+echo "<hr />";
+echo "Separate: <br />";
+echo sprintf("Z: %s",number_format($time_aggregated_separately_zephir,12));
+echo '<br />';
+echo sprintf("P: %s",number_format($time_aggregated_separately_php,12));
+echo "<br />";
+
+function iterate_zephir($data,$index_to_extract,$iterations_internal) {
+    for ($a=0;$a<=$iterations_internal;$a++) {
+        $digger = new \Jamjan\Arraydigger();
+        $digger->extract_data($data,$index_to_extract);
+    }
+}
+function iterate_php($data,$index_to_extract,$iterations_internal) {
+    for ($a=0;$a<=$iterations_internal;$a++) {
+        $digger = new ArrayDigger();
+        $digger->extract_data($data,$index_to_extract);
+    }
+}

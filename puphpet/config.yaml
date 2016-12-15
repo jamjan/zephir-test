@@ -222,7 +222,7 @@ apache:
                             provider: filesmatch
                     provider: directory
 letsencrypt:
-    install: '1'
+    install: '0'
     settings:
         email: ''
     domains: {  }
@@ -386,7 +386,7 @@ redis:
     settings:
         port: '6379'
 sqlite:
-    install: '1'
+    install: '0'
     adminer: '1'
     databases:
         sqlitenuad_hkmczx9x76na:

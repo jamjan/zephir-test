@@ -2,7 +2,7 @@ namespace Jamjan;
 
 class Arraydigger {
 
-    public function extract_data(array resource_data,string path, string delimiter = ".") -> string | null {
+    public function extract_data(array resource_data,string path, string delimiter = ".") -> string | int | bool | null {
         var path_exploded;
         array copy;
         var value;
