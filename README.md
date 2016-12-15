@@ -27,7 +27,6 @@ Apriori package codedheartinside/apriori
 
 
 ##Post deployment ##
-
 There are post deployment scripts located at `./puphpet/files/startup-always/`
 
 ######Clone and install Zephir ######
