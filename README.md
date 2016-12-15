@@ -1,4 +1,4 @@
-#Zephir vs PHP7 #
+#Zephir and PHP5.6 #
 
 * Zephir 0.9.5a-dev-bad1ef6b4d
 * PHP 7.1.0
