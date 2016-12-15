@@ -1,7 +1,7 @@
 #Zephir and PHP5.6 #
 
 * Zephir 0.9.5a-dev-bad1ef6b4d
-* PHP 7.1.0
+* PHP 5.6.29
 * Ubuntu 14.04
 
 library *re2c* is required (included)
@@ -22,9 +22,6 @@ Apriori procedure
 ###Test 4 ###
 Apriori package codedheartinside/apriori
 *https://packagist.org/packages/codedheartinside/apriori*
-
-
-
 
 ##Post deployment ##
 There are post deployment scripts located at `./puphpet/files/startup-always/`
