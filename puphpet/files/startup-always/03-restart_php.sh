@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # restart php-fpm
-sudo restart php7.1-fpm
+sudo systemctl reload php7.1-fpm.service

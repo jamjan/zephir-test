@@ -4,7 +4,7 @@ $data = ["test"=>["array"=>["index"=>123]],"another","another_another"];
 
 $index_to_extract = "test.array.index";
 
-$iterations_external = 10;
+$iterations_external = 1000;
 
 $iterations_internal = 100;
 
@@ -51,6 +51,15 @@ echo "Together: <br />";
 echo sprintf("Z: %s",number_format($time_aggregated_together_zephir,12));
 echo '<br />';
 echo sprintf("P: %s",number_format($time_aggregated_together_php,12));
+echo '<br />';
+$percent = number_format((100-$time_aggregated_together_php/$time_aggregated_together_zephir*100),2);
+if($percent>0) {
+    echo "PHP was faster by " . $percent . "%";
+} else {
+    $percent = number_format((100-$time_aggregated_together_zephir/$time_aggregated_together_php*100),2);
+    echo "Zephir was faster by " . $percent . "%";
+}
+
 echo "<br />";
 echo "<hr />";
 echo "Separate: <br />";
@@ -58,6 +67,13 @@ echo sprintf("Z: %s",number_format($time_aggregated_separately_zephir,12));
 echo '<br />';
 echo sprintf("P: %s",number_format($time_aggregated_separately_php,12));
 echo "<br />";
+$percent = number_format((100-$time_aggregated_separately_php/$time_aggregated_separately_zephir*100),2);
+if($percent>0) {
+    echo "PHP was faster by " . $percent . "%";
+} else {
+    $percent = number_format((100-$time_aggregated_separately_zephir/$time_aggregated_separately_php*100),2);
+    echo "Zephir was faster by " . $percent . "%";
+}
 
 function iterate_zephir($data,$index_to_extract,$iterations_internal) {
     for ($a=0;$a<=$iterations_internal;$a++) {
