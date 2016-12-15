@@ -2,7 +2,7 @@
 
 * Zephir 0.9.5a-dev-bad1ef6b4d
 * PHP 5.6.29
-* Ubuntu 14.04
+* Ubuntu 16.04*
 
 library *re2c* is required (included)
 
@@ -43,3 +43,7 @@ There are post deployment scripts located at `./puphpet/files/startup-always/`
 
 ######Restart PHP-FPM ######
 sudo systemctl reload php7.1-fpm.service
+
+
+* if your host machine is ubuntu-16.04 then download and install vagrant from the vagrant website rather than use system package
+[https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1_x86_64.deb]
