@@ -32,6 +32,13 @@ Padder - array manipulations
 ##Tips ##
 Zephir does not accept single-quotes. Convert *array('index')* to *array("index")* otherwise will not compile.
 
+Every time I do vagrant up I have to make sure that directories
+* ./zephir
+* ./zephir.puphpet/jamjan/.temp/
+* ./zephir.puphpet/jamjan/ext/
+
+are removed.
+
 ##Post deployment ##
 There are post deployment scripts located at `./puphpet/files/startup-always/`
 
