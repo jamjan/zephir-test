@@ -17,14 +17,17 @@ library *re2c* is required (included)
 ArrayDigger supposed to search given array by given (string) path.
 
 ###Test 2 ###
-Php Architect 11/2016 - Victor Bolshov
-*https://github.com/crocodile2u/phparch-zephir/tree/step4*
+String padding
 
 ###Test 3 ###
-Apriori procedure
+**TBD** Php Architect 11/2016 - Victor Bolshov
+*https://github.com/crocodile2u/phparch-zephir/tree/step4*
 
 ###Test 4 ###
-Apriori package codedheartinside/apriori
+**TBD** Apriori procedure
+
+###Test 5 ###
+**TBD** Apriori package codedheartinside/apriori
 *https://packagist.org/packages/codedheartinside/apriori*
 
 ##Post deployment ##
