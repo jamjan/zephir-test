@@ -31,7 +31,7 @@ String padding
 *https://packagist.org/packages/codedheartinside/apriori*
 
 ##Post deployment ##
-There are post deployment scripts located at `./puphpet/files/startup-always/`
+If you decide to use Puphpet attached the following scripts will be executed:
 
 ######Clone and install Zephir ######
 * cd /var/www && git clone https://github.com/phalcon/zephir
@@ -50,3 +50,5 @@ There are post deployment scripts located at `./puphpet/files/startup-always/`
 
 ######Restart PHP-FPM ######
 sudo systemctl reload php7.1-fpm.service
+
+Deployment scripts located at `./puphpet/files/startup-always/`
