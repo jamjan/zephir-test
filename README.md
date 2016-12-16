@@ -36,6 +36,7 @@ Every time I do vagrant up I have to make sure that directories
 * ./zephir
 * ./zephir.puphpet/jamjan/.temp/
 * ./zephir.puphpet/jamjan/ext/
+
 are removed.
  
 ##Post deployment ##
