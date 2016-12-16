@@ -62,3 +62,4 @@ Some ideas for future development:
 * Move from Puphpet to pure Vagrant or Docker?
 * In Arraydigger.zep swap *isset()* with *in_array* and *empty()* with *null!==*
 * Test with frameworks
+* Add function *php_pad_simplified()*  ./zephir.puphpet/public/test.inc.php. Actually convert it to class
