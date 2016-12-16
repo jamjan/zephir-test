@@ -1,5 +1,7 @@
 <?php
 echo "<a href='/index.php'><< Go Back</a><br />";
+
+// include php_pad function
 require_once "test_2.inc.php";
 
 // test PHP
@@ -18,7 +20,6 @@ $start_zephir_simplified = microtime(true);
 $padder->testSimplified();
 $time_zephir_simplified = microtime(true) - $start_zephir_simplified;
 
-
 // PRINT THE RESULTS
 
 echo "<h3>Literal</h3>";
@@ -26,7 +27,6 @@ echo "<h3>Literal</h3>";
 // print results for PHP
 echo sprintf("P:  %s",number_format($time_php,12));
 echo "<br />";
-
 // print results for Zephir
 echo sprintf("Z:  %s",number_format($time_zephir,12));
 echo "<br />";
@@ -44,7 +44,6 @@ if($percent>0) {
 
 // print result for Zephir simplified
 echo "<br />";
-
 echo "<h3>Simplified</h3>";
 // print results for PHP
 echo sprintf("P:  %s",number_format($time_php,12));

@@ -4,9 +4,9 @@
 * PHP 7.1.0
 * Ubuntu 16.04*
 * host set as *http://zephir.php7-1.puphpet*
-* IP 192.168.56.71
+* IP 192.168.56.**71**
 
-library *re2c* is required (included)
+In addition to Ubuntu the library *re2c* is required (included)
 
 *if your host machine is ubuntu-16.04 then download and install vagrant from the vagrant website rather than use system package [https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1_x86_64.deb]
 
@@ -16,18 +16,21 @@ library *re2c* is required (included)
 ArrayDigger supposed to search given array by given (string) path.
 
 ###Test 2 ###
-Php Architect 11/2016 - Victor Bolshov
-*https://github.com/crocodile2u/phparch-zephir/tree/step4*
+Padder - array manipulations
 
 ###Test 3 ###
-Apriori procedure
+**TBD** Php Architect 11/2016 - Victor Bolshov
+*https://github.com/crocodile2u/phparch-zephir/tree/step4*
 
 ###Test 4 ###
-Apriori package codedheartinside/apriori
+**TBD** Apriori procedure
+
+###Test 5 ###
+**TBD** Apriori package codedheartinside/apriori
 *https://packagist.org/packages/codedheartinside/apriori*
 
-
-
+##Tips ##
+Zephir does not accept single-quotes. Convert *array('index')* to *array("index")* otherwise will not compile.
 
 ##Post deployment ##
 There are post deployment scripts located at `./puphpet/files/startup-always/`
@@ -49,3 +52,14 @@ There are post deployment scripts located at `./puphpet/files/startup-always/`
 
 ######Restart PHP-FPM ######
 sudo systemctl reload php7.1-fpm.service
+
+
+* if your host machine is ubuntu-16.04 then download and install vagrant from the vagrant website rather than use system package
+[https://releases.hashicorp.com/vagrant/1.9.1/vagrant_1.9.1_x86_64.deb]
+
+####Ideas ####
+Some ideas for future development:
+* Move from Puphpet to pure Vagrant or Docker?
+* In Arraydigger.zep swap *isset()* with *in_array* and *empty()* with *null!==*
+* Test with frameworks
+* Add function *php_pad_simplified()*  ./zephir.puphpet/public/test.inc.php. Actually convert it to class

@@ -1,4 +1,3 @@
-
 namespace Jamjan;
 
 class PaddingTest {

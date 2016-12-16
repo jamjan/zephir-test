@@ -20,10 +20,17 @@ vagrantfile:
                         update_guest_tools: 0
                 machines:
                     vflm_a9tlhrx1i4pj:
+<<<<<<< HEAD
                         id: zephir_and_php7_1
                         hostname: zephir.php-7-1.puphpet
                         network:
                             private_network: 192.168.56.71
+=======
+                        id: zephir_and_php5_6
+                        hostname: zephir.php-5-6.puphpet
+                        network:
+                            private_network: 192.168.56.56
+>>>>>>> ebe24ba26af490a77e3f490d8e603a16610fda97
                             forwarded_port:
                                 vflmnfp_pbc5ign3qpa4:
                                     host: '6865'
@@ -185,9 +192,15 @@ apache:
         - rewrite
     vhosts:
         av_41es9yo73mi1:
+<<<<<<< HEAD
             servername: zephir.php-7-1.puphpet
             serveraliases:
                 - www.zephir.php-7-1.puphpet
+=======
+            servername: zephir.php-5-6.puphpet
+            serveraliases:
+                - www.zephir.php-5-6.puphpet
+>>>>>>> ebe24ba26af490a77e3f490d8e603a16610fda97
             docroot: /var/www/zephir.puphpet/public
             port: '80'
             setenv:
@@ -229,7 +242,7 @@ letsencrypt:
 php:
     install: '1'
     settings:
-        version: '7.1'
+        version: '5.6'
     modules:
         php:
             - cli

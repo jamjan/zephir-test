@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 libtool: compile:  gcc -I. -I/var/www/zephir.puphpet/jamjan/ext -DPHP_ATOM_INC -I/var/www/zephir.puphpet/jamjan/ext/include -I/var/www/zephir.puphpet/jamjan/ext/main -I/var/www/zephir.puphpet/jamjan/ext -I/usr/include/php/20160303 -I/usr/include/php/20160303/main -I/usr/include/php/20160303/TSRM -I/usr/include/php/20160303/Zend -I/usr/include/php/20160303/ext -I/usr/include/php/20160303/ext/date/lib -DHAVE_CONFIG_H -O2 -fvisibility=hidden -Wparentheses -flto -DZEPHIR_RELEASE=1 -c /var/www/zephir.puphpet/jamjan/ext/jamjan/paddingtest.zep.c  -fPIC -DPIC -o jamjan/.libs/paddingtest.o
 libtool: link: rm -fr  .libs/jamjan.la .libs/jamjan.lai .libs/jamjan.so
 libtool: link: gcc -shared  -fPIC -DPIC  .libs/jamjan.o kernel/.libs/main.o kernel/.libs/memory.o kernel/.libs/exception.o kernel/.libs/hash.o kernel/.libs/debug.o kernel/.libs/backtrace.o kernel/.libs/object.o kernel/.libs/array.o kernel/extended/.libs/array.o kernel/.libs/string.o kernel/.libs/fcall.o kernel/extended/.libs/fcall.o kernel/.libs/require.o kernel/.libs/file.o kernel/.libs/operators.o kernel/.libs/math.o kernel/.libs/concat.o kernel/.libs/variables.o kernel/.libs/filter.o kernel/.libs/iterator.o kernel/.libs/time.o kernel/.libs/exit.o jamjan/.libs/arraydigger.o jamjan/.libs/paddingtest.o    -O2 -flto   -Wl,-soname -Wl,jamjan.so -o .libs/jamjan.so
 libtool: link: ( cd ".libs" && rm -f "jamjan.la" && ln -s "../jamjan.la" "jamjan.la" )
+=======
+>>>>>>> ebe24ba26af490a77e3f490d8e603a16610fda97
 libtool: install: cp ./.libs/jamjan.so /var/www/zephir.puphpet/jamjan/ext/modules/jamjan.so
 libtool: install: cp ./.libs/jamjan.lai /var/www/zephir.puphpet/jamjan/ext/modules/jamjan.la
 libtool: finish: PATH="/usr/local/rvm/gems/ruby-2.3.1/bin:/usr/local/rvm/gems/ruby-2.3.1@global/bin:/usr/local/rvm/rubies/ruby-2.3.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/usr/local/rvm/bin:/home/vagrant/bin:/sbin" ldconfig -n /var/www/zephir.puphpet/jamjan/ext/modules
@@ -27,5 +30,10 @@ more information, such as the ld(1) and ld.so(8) manual pages.
 Build complete.
 Don't forget to run 'make test'.
 
+<<<<<<< HEAD
 Installing shared extensions:     /usr/lib/php/20160303/
 Installing header files:           /usr/include/php/20160303/
+=======
+Installing shared extensions:     /usr/lib/php/20131226/
+Installing header files:           /usr/include/php/20131226/
+>>>>>>> ebe24ba26af490a77e3f490d8e603a16610fda97
