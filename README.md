@@ -1,3 +1,5 @@
+Currently I am waiting for 1.0 to be released.
+
 #Zephir and PHP7 #
 
 * Zephir 0.9.5a-dev-bad1ef6b4d
